@@ -1,8 +1,8 @@
-let str = require('./constant');
+
+let string1 = 'hello';
 let $ = require('jquery');
 let App = function () {
-    console.log(str);
-    $('body').html(str);
+    console.log(string1);
+    $('body').html(string1);
 };
-
 let app = new App();

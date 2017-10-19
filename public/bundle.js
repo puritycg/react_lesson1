@@ -67,23 +67,18 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-let str = __webpack_require__(1);
-let $ = __webpack_require__(2);
-let App = function () {
-    console.log(str);
-    $('body').html(str);
-};
 
+let string1 = 'hello';
+let $ = __webpack_require__(1);
+let App = function () {
+    console.log(string1);
+    $('body').html(string1);
+};
 let app = new App();
+
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-module.exports = 'APP INIT';
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
